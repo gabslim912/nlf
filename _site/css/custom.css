@@ -1,0 +1,44 @@
+body {
+  background-color: #3697d9; }
+
+.header {
+  text-align: center; }
+
+.nl-form .nl-submit {
+  background: white;
+  color: #3697d9; }
+  .nl-form .nl-submit:before {
+    background: white;
+    color: #3697d9; }
+
+.nl-field ul {
+  background: #1b5f8e; }
+
+.nl-dd ul li.nl-dd-checked {
+  color: #3697d9; }
+
+.main {
+  max-width: 70em; }
+
+.nl-form {
+  width: 100%;
+  margin-bottom: 100px; }
+
+.no-touch .nl-form .nl-submit:hover,
+.no-touch .nl-form .nl-submit:active {
+  background: #237cb9; }
+
+.no-touch .nl-form .nl-submit:hover:before {
+  background: #237cb9; }
+
+.logo {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  width: 250px;
+  margin: 40px auto;
+  margin-bottom: 0; }
+  .logo img {
+    width: 200px;
+    height: auto;
+    max-width: 100%; }

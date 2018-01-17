@@ -1,0 +1,61 @@
+---
+---
+
+$color-brand: #3697d9;
+
+body{
+    background-color: $color-brand;
+}
+
+.header{
+    text-align: center;
+}
+
+.nl-form .nl-submit {
+    background: white;
+    color: $color-brand;
+    &:before{
+        background:white;
+        color: $color-brand;
+    }
+}
+
+.nl-field ul{
+    background: darken($color-brand, 20%);
+}
+
+.nl-dd ul li.nl-dd-checked {
+    color: $color-brand;
+}
+
+.main {
+    max-width: 70em;
+}
+
+.nl-form {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.no-touch .nl-form .nl-submit:hover,
+.no-touch .nl-form .nl-submit:active {
+	background: darken($color-brand, 10%);
+}
+
+.no-touch .nl-form .nl-submit:hover:before {
+	background: darken($color-brand, 10%);
+}
+
+.logo{
+    text-align: center;
+    background: white;
+    padding: 20px;
+    width: 250px;
+    margin: 40px auto;
+    margin-bottom: 0;
+    img{
+        width: 200px;
+        height: auto;
+        max-width: 100%;
+    }
+}
